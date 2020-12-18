@@ -9,7 +9,7 @@ type AI struct {
 
 type AV struct {
 	XMLName xml.Name `xml:"AV,omitempty" json:"AV,omitempty"`
-	string  string   `xml:",chardata" json:",omitempty"`
+	String  string   `xml:",chardata" json:",omitempty"`
 }
 
 type I64 struct {
@@ -70,7 +70,7 @@ type PR struct {
 type S struct {
 	XMLName xml.Name `xml:"S,omitempty" json:"S,omitempty"`
 	AttrS   string   `xml:"S,attr"  json:",omitempty"`
-	string  string   `xml:",chardata" json:",omitempty"`
+	String  string   `xml:",chardata" json:",omitempty"`
 }
 
 type SD struct {
@@ -84,7 +84,7 @@ type SR struct {
 
 type T struct {
 	XMLName xml.Name `xml:"T,omitempty" json:"T,omitempty"`
-	string  string   `xml:",chardata" json:",omitempty"`
+	String  string   `xml:",chardata" json:",omitempty"`
 }
 
 type TN struct {
